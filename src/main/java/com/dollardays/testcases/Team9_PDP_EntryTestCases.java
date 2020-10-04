@@ -24,7 +24,7 @@ public class Team9_PDP_EntryTestCases extends BaseTest {
 	 * @param datatable
 	 * @throws Exception
 	 */
-	@DDDataProvider(datafile = "testdata/Team9_ProductDescriptionPage.xlsx", sheetName = "Entry", testcaseID = "", runmode = "Yes")
+	@DDDataProvider(datafile = "testdata/Team9_ProductDescriptionPage.xlsx", sheetName = "Entry", testcaseID = "", runmode = "")
 	@Test(groups = { "lsn-test-one" }, dataProvider = "dd-dataprovider", dataProviderClass = TestUtil.class)
 	public void TC_DD_PDP_Entry_Cases(Hashtable<String, String> datatable) throws Exception {
 

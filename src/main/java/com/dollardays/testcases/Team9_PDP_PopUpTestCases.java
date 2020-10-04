@@ -18,7 +18,7 @@ public class Team9_PDP_PopUpTestCases extends BaseTest {
 	 * @param datatable
 	 * @throws Exception
 	 */
-	@DDDataProvider(datafile = "testdata/Team9_ProductDescriptionPage.xlsx", sheetName = "Popup", testcaseID = "", runmode = "Yes")
+	@DDDataProvider(datafile = "testdata/Team9_ProductDescriptionPage.xlsx", sheetName = "Popup", testcaseID = "", runmode = "")
 	@Test(groups = { "test-one-popup" }, dataProvider = "dd-dataprovider", dataProviderClass = TestUtil.class)
 	public void TC_DD_PDP_Quantity_Cases(Hashtable<String, String> datatable) throws Exception {
 		

@@ -22,7 +22,7 @@ public class Team9_PDP_LeftNavTestCases extends BaseTest {
 	 * @param datatable
 	 * @throws Exception
 	 */
-	@DDDataProvider(datafile = "testdata/Team9_ProductDescriptionPage.xlsx", sheetName = "Left Navigation", testcaseID = "", runmode = "Yes")
+	@DDDataProvider(datafile = "testdata/Team9_ProductDescriptionPage.xlsx", sheetName = "Left Navigation", testcaseID = "", runmode = "")
 	@Test(groups = { "lsn-test-one" }, dataProvider = "dd-dataprovider", dataProviderClass = TestUtil.class)
 	public void TC_DD_PDP_LeftNavigation_Cases(Hashtable<String, String> datatable) throws Exception {
 		

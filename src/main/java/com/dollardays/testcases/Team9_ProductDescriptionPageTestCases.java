@@ -21,7 +21,7 @@ public class Team9_ProductDescriptionPageTestCases extends BaseTest {
 	 * @param datatable
 	 * @throws Exception
 	 */
-	@DDDataProvider(datafile = "testdata/Team9_ProductDescriptionPage.xlsx", sheetName = "Product Details", testcaseID = "", runmode = "Yes")
+	@DDDataProvider(datafile = "testdata/Team9_ProductDescriptionPage.xlsx", sheetName = "Product Details", testcaseID = "", runmode = "")
 	@Test(groups = { "lsn-test-one" }, dataProvider = "dd-dataprovider", dataProviderClass = TestUtil.class)
 	public void TC_DD_PDP_ProductDetails_Cases(Hashtable<String, String> datatable) throws Exception {
 
